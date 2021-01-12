@@ -371,3 +371,4 @@ zeroconf==0.23.0
 
 # homeassistant.components.zha
 zigpy-homeassistant==0.6.1
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
