@@ -45,7 +45,7 @@ aioambient==0.3.1
 aioautomatic==0.6.5
 
 # homeassistant.components.aws
-aiobotocore==0.10.2
+aiobotocore==2.9.1
 
 # homeassistant.components.esphome
 aioesphomeapi==2.2.0
