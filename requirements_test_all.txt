@@ -156,7 +156,7 @@ hbmqtt==0.9.4
 hdate==0.8.8
 
 # homeassistant.components.workday
-holidays==0.9.10
+holidays==0.45
 
 # homeassistant.components.frontend
 home-assistant-frontend==20190705.0
