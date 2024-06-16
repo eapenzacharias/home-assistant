@@ -10,7 +10,7 @@ flake8==3.7.7
 mock-open==1.3.1
 mypy==0.711
 pydocstyle==3.0.0
-pylint==2.3.1
+pylint==2.7.0
 pytest-aiohttp==0.3.0
 pytest-cov==2.7.1
 pytest-sugar==0.9.2
@@ -45,7 +45,7 @@ aioambient==0.3.1
 aioautomatic==0.6.5
 
 # homeassistant.components.aws
-aiobotocore==0.10.2
+aiobotocore==2.9.1
 
 # homeassistant.components.esphome
 aioesphomeapi==2.2.0
@@ -371,3 +371,12 @@ zeroconf==0.23.0
 
 # homeassistant.components.zha
 zigpy-homeassistant==0.6.1
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+mechanicalsoup>=1.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tlslite-ng>=0.8.0-alpha3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
