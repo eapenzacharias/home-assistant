@@ -1,3 +1,4 @@
 Sphinx==2.1.2
 sphinx-autodoc-typehints==1.6.0
 sphinx-autodoc-annotation==1.0.post1
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
